@@ -52,7 +52,7 @@ module.exports = {
       network_id: "*",       // Any network (default: none)
     },
     rinkeby: {
-      provider: () => new HDWallet(mnemonic, `https://rinkeby.infura.io/v3/2bd319ba98c44a93b99316a747988d8f`),
+      provider: () => new HDWallet(mnemonic, `https://rinkeby.infura.io/v3/2bd****`),
         network_id: 4,       // rinkeby's id
         gas: 4500000,        // rinkeby has a lower block limit than mainnet
         gasPrice: 10000000000
